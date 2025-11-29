@@ -374,11 +374,11 @@ Match each Spec Kit component to what it would do in your project:
 **Write your answers:**
 
 ```
-A → 3
-B → 1
-C → 4
-D → 5
-E → 2
+A → 
+B → 
+C → 
+D → 
+E → 
 ```
 
 <details>

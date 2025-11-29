@@ -1,6 +1,5 @@
 # 📚 Course Progress Tracker
 
-**Student:** Mate H.  
 **Course:** Spec Kit & Spec-Driven Development  
 **Start Date:** November 29, 2025  
 **Status:** All lessons created ✅

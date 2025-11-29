@@ -73,7 +73,8 @@ specify init my-project --ai copilot --script ps
 
 ```powershell
 # Navigate to where you want the project
-cd C:\Users\mateh\OneDrive\Documents
+cd ~/Documents
+# Or on Windows: cd C:\Users\YourUsername\Documents
 
 # Create new project
 specify init my-first-spec-project --ai copilot --script ps
@@ -101,7 +102,8 @@ sequenceDiagram
 
 ```powershell
 # You already have a folder
-cd C:\Users\mateh\OneDrive\Documents\existing-project
+cd ~/Documents/existing-project
+# Or on Windows: cd C:\Users\YourUsername\Documents\existing-project
 
 # Initialize Spec Kit here
 specify init . --ai copilot --script ps
@@ -402,7 +404,7 @@ Practice by creating three different project types:
 
 ### Project 1: Web App
 ```powershell
-cd C:\Users\mateh\OneDrive\Documents
+cd ~/Documents
 specify init practice-web-app --ai copilot --script ps
 cd practice-web-app
 tree /F .speckit
@@ -410,7 +412,7 @@ tree /F .speckit
 
 ### Project 2: In Existing Folder
 ```powershell
-cd C:\Users\mateh\OneDrive\Documents
+cd ~/Documents
 mkdir practice-existing
 cd practice-existing
 echo "# My Project" > README.md
@@ -420,7 +422,7 @@ ls
 
 ### Project 3: Without Git (Experiment)
 ```powershell
-cd C:\Users\mateh\OneDrive\Documents
+cd ~/Documents
 specify init practice-no-git --ai copilot --script ps --no-git
 cd practice-no-git
 git status  # Should show: not a git repository

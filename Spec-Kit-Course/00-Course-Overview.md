@@ -1,7 +1,6 @@
 # 🌱 Spec Kit & Spec-Driven Development - Complete Course
 
 **Course Start Date:** November 28, 2025  
-**Student:** Mate H.  
 **Topic:** Spec Kit and Spec-Driven Development
 
 ---

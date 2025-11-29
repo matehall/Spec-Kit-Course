@@ -342,8 +342,7 @@ Throughout the course:
 
 **Course Created:** November 29, 2025  
 **Based On:** [GitHub Spec Kit](https://github.com/github/spec-kit)  
-**Teaching Method:** Interactive Socratic tutoring with recursive learning  
-**Created For:** Mate H.
+**Teaching Method:** Interactive Socratic tutoring with recursive learning
 
 ---
 

@@ -50,9 +50,9 @@ graph TD
 - ✅ **macOS** (Intel and Apple Silicon)
 - ✅ **Windows** (Windows 10/11 with PowerShell)
 
-**You're using:** Windows with PowerShell ✅
+**Check your system:** Verify which OS you're using
 
-No additional setup needed for OS compatibility!
+No additional setup needed for OS compatibility on supported systems!
 
 ---
 
@@ -177,9 +177,9 @@ uv --version
 ### Why an AI Agent?
 Spec Kit's slash commands work **through** your AI coding agent. The agent interprets the commands and executes the workflow.
 
-### Supported Agents for Your Setup
+### Supported Agents
 
-Since you're using **VS Code on Windows**, best options:
+If you're using **VS Code**, recommended options:
 
 ```mermaid
 graph TD
