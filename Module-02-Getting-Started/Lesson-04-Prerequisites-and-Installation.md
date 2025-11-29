@@ -247,33 +247,50 @@ claude-code config
 
 ---
 
-## 📦 Installing Spec Kit
+## 📦 Installing Spec Kit (Optional)
 
-Once all prerequisites are ready, install Spec Kit:
+**You don't need to install specify-cli to use Spec Kit!** The core workflow runs entirely through slash commands in your AI agent.
+
+However, the CLI provides helpful utilities for project initialization and prerequisite checking.
 
 ```mermaid
 graph LR
-    Prereqs[Prerequisites Ready] --> Install[Install Spec Kit]
-    Install --> Verify[Verify Installation]
-    Verify --> Ready[Ready to Use!]
+    Prereqs[Prerequisites Ready] --> Optional[Optional: Install CLI]
+    Optional --> Direct[Use Spec Kit Directly<br/>via AI Agent]
+    Optional --> CLI[Use CLI for<br/>Init & Checks]
+    
+    Direct --> Ready[Ready to Use!]
+    CLI --> Ready
     
     style Ready fill:#c8e6c9
 ```
 
-### Persistent Installation (Recommended)
+### Direct Usage (No CLI Installation)
+
+You can start using Spec Kit immediately by using slash commands in your AI agent:
+
+- `/speckit.specify` - Create specifications
+- `/speckit.plan` - Create technical plans  
+- `/speckit.tasks` - Break down work
+- `/speckit.implement` - Generate code
+
+**Skip to Lesson 5 if you prefer this approach!**
+
+### CLI Installation (Recommended for Full Experience)
+
+If you want the CLI utilities:
 
 ```powershell
-# Install Spec Kit globally
+# Install Spec Kit CLI globally
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 ```
 
-**What this does:**
-- ✅ Installs `specify` command globally
-- ✅ Available in all terminals
-- ✅ Easy to upgrade later
-- ✅ No need for aliases or wrappers
+**What the CLI provides:**
+- ✅ `specify init` - Initialize new projects
+- ✅ `specify check` - Verify prerequisites
+- ✅ `specify --help` - Command documentation
 
-### Verify Installation
+### Verify Installation (If CLI Installed)
 
 ```powershell
 # Check if specify command works
@@ -291,8 +308,36 @@ specify check
 ✓ [your-ai-agent] found
 ```
 
+```
+✓ git found
+✓ python found
+✓ uv found
+✓ [your-ai-agent] found
+## 📥 Manual Installation: Add Spec Kit to Your Repo (No CLI)
+
+If you want to add Spec Kit's starter files or templates to your project **without using the CLI**, you can do so manually:
+
+### 1. Download the Latest Spec Kit Release
+- Go to the [Spec Kit GitHub Releases page](https://github.com/github/spec-kit/releases)
+- Find the latest release and download the `.zip` file (usually named `spec-kit-main.zip` or similar)
+
+### 2. Extract the Files
+- Unzip the downloaded file to a temporary folder on your computer.
+
+### 3. Copy Starter Files to Your Project
+- Inside the unzipped folder, locate the core Spec Kit files (such as `/.speckit/`, `spec-templates/`, or any starter specs provided).
+- Copy these folders/files into the root of your project repository.
+
+### 4. Commit to Your Repo
+```powershell
+```
+
 ---
 
+
+You can now use all Spec Kit slash commands in your AI agent, and your repo will have the recommended structure!
+
+**Tip:** Check the [Spec Kit README](https://github.com/github/spec-kit) for any updates on manual setup or file structure.
 ## 🔄 Upgrading Spec Kit
 
 To upgrade to the latest version:
@@ -309,12 +354,12 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 Before moving to the next lesson, verify:
 
 - [ ] **OS:** Windows, macOS, or Linux ✅
-- [ ] **Python:** Version 3.11+ installed and in PATH
-- [ ] **Git:** Installed and configured with name/email
-- [ ] **uv:** Package manager installed
-- [ ] **AI Agent:** Chosen and set up (Copilot, Claude, Cursor, etc.)
-- [ ] **Spec Kit:** `specify` command works
-- [ ] **Verification:** `specify check` passes
+- [ ] **Python:** Version 3.11+ installed and in PATH (optional, for CLI)
+- [ ] **Git:** Installed and configured with name/email (recommended)
+- [ ] **uv:** Package manager installed (optional, for CLI)
+- [ ] **AI Agent:** Chosen and set up (Copilot, Claude, Cursor, etc.) ✅
+- [ ] **Spec Kit CLI:** `specify` command works (optional)
+- [ ] **Verification:** `specify check` passes (if CLI installed)
 
 ---
 
@@ -344,44 +389,44 @@ uv is significantly faster than pip, more reliable at resolving dependencies, an
 <details>
 <summary>Think about the workflow...</summary>
 
-The CLI only handles project initialization (`specify init`) and checking prerequisites (`specify check`). The actual Spec-Driven Development workflow (constitution, specify, plan, tasks, implement) is executed through slash commands in your AI agent, which interprets your specifications and generates code.
+The CLI is optional and only provides utilities for project initialization (`specify init`) and checking prerequisites (`specify check`). The core Spec-Driven Development workflow (constitution, specify, plan, tasks, implement) is executed through slash commands in your AI agent, which interprets your specifications and generates code. You can use Spec Kit without ever installing the CLI!
 </details>
 
 ---
 
 ## 💡 Exercise: Environment Setup
 
-**Complete these steps and document your results:**
+**Complete these steps and document your results (CLI installation is optional):**
 
-### Step 1: Check Python
+### Step 1: Check Python (Optional)
 ```powershell
 python --version
 ```
-**Your result:** _______________
+**Your result:** _______________ (Skip if not installing CLI)
 
-### Step 2: Check Git
+### Step 2: Check Git (Recommended)
 ```powershell
 git --version
 ```
-**Your result:** _______________
+**Your result:** _______________ (Needed for version control)
 
-### Step 3: Check uv
+### Step 3: Check uv (Optional)
 ```powershell
 uv --version
 ```
-**Your result:** _______________
+**Your result:** _______________ (Skip if not installing CLI)
 
-### Step 4: Install Spec Kit
+### Step 4: Install Spec Kit CLI (Optional)
 ```powershell
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 ```
-**Success?** [ ] Yes [ ] No
+**Success?** [ ] Yes [ ] No [ ] Skipped
 
-### Step 5: Verify
+### Step 5: Verify (If CLI Installed)
 ```powershell
 specify check
 ```
-**What's missing (if anything)?** _______________
+**What's missing (if anything)?** _______________ (Skip if not installing CLI)
 
 ---
 
@@ -422,8 +467,20 @@ specify check
 
 **Scenario:** You're on a new Windows laptop, starting fresh. What's the fastest way to get ready for Spec Kit?
 
-**Optimized Setup Steps:**
+**Option 1: Direct Usage (Fastest - No CLI)**
+```powershell
+# Just install Git for version control
+winget install Git.Git
 
+# Configure Git
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# Set up AI agent in VS Code (install Copilot extension)
+# Ready to use /speckit commands!
+```
+
+**Option 2: Full Setup (With CLI)**
 ```powershell
 # 1. Install Python (if needed)
 winget install Python.Python.3.12
@@ -449,7 +506,7 @@ specify check
 # 8. Set up AI agent in VS Code (install extension)
 ```
 
-**Time estimate:** 15-20 minutes
+**Time estimate:** 5 minutes (direct) or 15-20 minutes (with CLI)
 
 ---
 
@@ -457,17 +514,17 @@ specify check
 
 Before moving to Lesson 5, make sure:
 
-- [ ] All prerequisites are installed
-- [ ] `specify check` passes (or you know what's missing and it's OK)
-- [ ] You have an AI agent set up (Copilot, Claude, etc.)
-- [ ] You understand why each tool is needed
+- [ ] All prerequisites are installed (CLI tools optional)
+- [ ] `specify check` passes (if CLI installed, otherwise skip)
+- [ ] You have an AI agent set up (Copilot, Claude, etc.) ✅
+- [ ] You understand how to use Spec Kit slash commands
 
 **Ready for Lesson 5: Project Initialization?**
 
 Reply with:
 - ✅ "Ready" or "Lesson 5" to continue
 - 🐛 "Help with [specific issue]" if you're stuck
-- 📝 Share your `specify check` output for validation
+- 📝 Share your `specify check` output for validation (if CLI installed)
 
 ---
 
