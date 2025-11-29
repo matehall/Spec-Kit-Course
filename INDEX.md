@@ -228,12 +228,6 @@ This index provides quick access to all course materials. All 25 lessons are com
 - **32 practical exercises** and thought experiments
 - **75+ Socratic questions** with expandable answers
 
-**Estimated Time:**
-- **Reading & study:** 40-50 hours
-- **Exercises & practice:** 20-25 hours
-- **Capstone project:** 20-30 hours
-- **Total:** 75-90 hours for complete mastery
-
 ---
 
 ## 🎯 Learning Paths
@@ -242,8 +236,6 @@ This index provides quick access to all course materials. All 25 lessons are com
 **Best for:** First-time learners, comprehensive understanding
 
 Follow lessons 1-25 in order, completing all exercises and quizzes.
-
-**Timeline:** 8-12 weeks (8-10 hours/week)
 
 ---
 
@@ -255,8 +247,6 @@ Follow lessons 1-25 in order, completing all exercises and quizzes.
 **Week 3:** Lessons 13-16 (Advanced Techniques)  
 **Week 4:** Lessons 17-22 (Phases + Real-World)  
 **Week 5:** Lessons 23-25 + Capstone start
-
-**Timeline:** 5-6 weeks (15-18 hours/week)
 
 ---
 
@@ -271,8 +261,6 @@ Alternate between learning and building:
 **Cycle 4:** Lessons 17-22 → Apply to real scenario  
 **Cycle 5:** Lessons 23-25 → Capstone project
 
-**Timeline:** 10-14 weeks (6-8 hours/week)
-
 ---
 
 ### Path 4: Topic-Focused
@@ -285,8 +273,6 @@ Alternate between learning and building:
 - Different contexts? → Module 5
 - Enterprise work? → Module 6
 - Mastery level? → Module 7
-
-**Timeline:** Variable based on needs
 
 ---
 

@@ -147,23 +147,6 @@ Designed as an interactive tutoring experience:
 
 ---
 
-## ⏱️ Time Investment
-
-**Total Estimated Time:** 75-90 hours
-
-| Activity | Time |
-|----------|------|
-| Reading & studying | 40-50 hours |
-| Exercises & practice | 20-25 hours |
-| Capstone project | 20-30 hours |
-
-**Flexible Schedule:**
-- **Intensive:** 5-6 weeks (15-18 hours/week)
-- **Moderate:** 8-12 weeks (8-10 hours/week)
-- **Relaxed:** 10-14 weeks (6-8 hours/week)
-
----
-
 ## 🎯 Learning Outcomes
 
 By completing this course, you will be able to:

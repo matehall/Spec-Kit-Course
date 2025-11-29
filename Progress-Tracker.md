@@ -36,8 +36,7 @@ graph TD
 
 ## ✅ Module 1: Foundations (3 lessons)
 
-**Status:** Ready to study  
-**Estimated Time:** 4-6 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 1:** What is Spec-Driven Development?
 - [ ] **Lesson 2:** Introduction to Spec Kit
@@ -53,8 +52,7 @@ graph TD
 
 ## ✅ Module 2: Getting Started (3 lessons)
 
-**Status:** Ready to study  
-**Estimated Time:** 4-6 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 4:** Prerequisites & Installation
 - [ ] **Lesson 5:** Project Initialization
@@ -70,8 +68,7 @@ graph TD
 
 ## ✅ Module 3: Core Workflow (6 lessons + quiz)
 
-**Status:** Ready to study  
-**Estimated Time:** 12-15 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 7:** Constitution - Setting Project Principles
 - [ ] **Lesson 8:** Specify - Defining Requirements
@@ -90,8 +87,7 @@ graph TD
 
 ## ✅ Module 4: Advanced Techniques (4 lessons + quiz)
 
-**Status:** Ready to study  
-**Estimated Time:** 8-10 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 13:** Clarify - Refining Underspecified Areas
 - [ ] **Lesson 14:** Analyze - Cross-Artifact Validation
@@ -108,8 +104,7 @@ graph TD
 
 ## ✅ Module 5: Development Phases (3 lessons + quiz)
 
-**Status:** Ready to study  
-**Estimated Time:** 6-8 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 17:** 0-to-1 Development (Greenfield)
 - [ ] **Lesson 18:** Creative Exploration
@@ -125,8 +120,7 @@ graph TD
 
 ## ✅ Module 6: Real-World Application (3 lessons + quiz)
 
-**Status:** Ready to study  
-**Estimated Time:** 6-8 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 20:** Enterprise Considerations
 - [ ] **Lesson 21:** Technology Independence
@@ -142,8 +136,7 @@ graph TD
 
 ## ✅ Module 7: Mastery (3 lessons + quiz)
 
-**Status:** Ready to study  
-**Estimated Time:** 8-10 hours
+**Status:** Ready to study
 
 - [ ] **Lesson 23:** User-Centric Development
 - [ ] **Lesson 24:** Iterative & Creative Processes
@@ -159,8 +152,7 @@ graph TD
 
 ## 🎓 Final Assessment: Capstone Project
 
-**Status:** Ready when you are  
-**Estimated Time:** 20-30 hours
+**Status:** Ready when you are
 
 - [ ] **Choose Project:** Select from 4 options or propose your own
 - [ ] **Complete All Phases:** Constitution → Specify → Plan → Tasks → Implement
@@ -185,11 +177,6 @@ graph TD
 - **~400,000 words** of educational content
 - **100+ diagrams** and visualizations
 - **32 practical exercises**
-
-**Estimated Total Time:** 75-90 hours
-- Reading & studying: 40-50 hours
-- Exercises & practice: 20-25 hours
-- Capstone project: 20-30 hours
 
 ---
 
