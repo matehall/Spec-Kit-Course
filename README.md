@@ -1,7 +1,13 @@
 # 🌱 Spec Kit & Spec-Driven Development - Complete Interactive Course
 
-> **Disclaimer:**
+## Disclaimer
+
 > This course is an experiment in AI-generated, specification-driven learning. The content has not been formally reviewed or validated by subject matter experts. Use at your own discretion, and always cross-check with official documentation and best practices for production or professional use.
+
+> **Not Affiliated with Official Spec Kit:**
+> This course and repository are **not associated with or endorsed by the official [Spec Kit project](https://github.com/github/spec-kit)**. It was created for personal learning and experimentation, but is shared publicly in case others find it useful.
+> 
+> **Thanks to the Spec Kit project and all its contributors** for their inspiration and open-source work.
 
 **Build high-quality software faster through specification-driven development with AI**
 
