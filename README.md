@@ -125,7 +125,7 @@ Every lesson includes questions that make you think, not just memorize. Expandab
 - Timeline charts for projects
 
 ### 💡 Hands-On Exercises
-75+ practical exercises apply concepts immediately:
+32 practical exercises apply concepts immediately:
 - Thought experiments
 - Code examples
 - Real-world scenarios
@@ -318,7 +318,7 @@ Throughout the course:
 - 25 comprehensive lessons
 - 400,000+ words of educational content
 - 100+ diagrams and visualizations
-- 75+ practical exercises
+- 32 practical exercises
 - 7 module review quizzes
 - 1 capstone project with rubric
 

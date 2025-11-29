@@ -184,7 +184,7 @@ graph TD
 - **1 Capstone Project**
 - **~400,000 words** of educational content
 - **100+ diagrams** and visualizations
-- **75+ practical exercises**
+- **32 practical exercises**
 
 **Estimated Total Time:** 75-90 hours
 - Reading & studying: 40-50 hours

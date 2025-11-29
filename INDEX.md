@@ -225,7 +225,7 @@ This index provides quick access to all course materials. All 25 lessons are com
 - **1 capstone project guide** with rubric
 - **~400,000 words** of educational content
 - **100+ Mermaid diagrams** for visual learning
-- **75+ practical exercises** and thought experiments
+- **32 practical exercises** and thought experiments
 - **75+ Socratic questions** with expandable answers
 
 **Estimated Time:**
